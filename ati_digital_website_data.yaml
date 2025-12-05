@@ -1,0 +1,114 @@
+company_info:
+  name: ATI-Digital (Advanced Technical Insight Digital Solutions)
+  tagline: Advanced Technical Solutions for Modern IT Infrastructure
+  certifications:
+  - SBA Certified Minority Owned Small Business
+  - HubZone Certified
+  - Small Disadvantaged Business Certified
+  company_data:
+    duns: 079979231
+    cage_code: 7GTJ0
+    naics:
+    - '541330'
+    - '541512'
+    - '518210'
+    - '541519'
+mission:
+  title: Mission Outline
+  description: ATI-Digital's mission is to be at the forefront of technology and innovation,
+    ensuring the integrity and consistency of servers and systems while implementing
+    cutting-edge virtualization, database architecture, storage integration, and network
+    support solutions. We provide competitive cost efficiencies with advanced capability,
+    encapsulating supported platforms into comprehensive Systems Administration services
+    that deliver multiple facets of client-server support from a single trusted resource.
+about:
+  title: About Us
+  description: ATI-Digital is an SBA certified Minority Owned Small Business, a global
+    service provider and integrator of proven hardware, software, and Software-Defined
+    Networking (SDN) technologies. With extensive experience in commercial and Federal
+    IT, we have the technical capacity and certified IT professionals to provide tailored,
+    innovative solutions that improve performance, increase security, and reduce costs.
+    We focus on delivering scalable and securable architectures capable of exceeding
+    requirements and meeting fiscal constraints facing companies and US Federal agencies
+    today.
+core_services:
+- name: Zero Trust Architectures (ZTA)
+  description: Implementation of comprehensive Zero Trust security frameworks that
+    eliminate implicit trust and verify every access request, ensuring robust protection
+    for your critical infrastructure.
+- name: Enterprise Network Infrastructure & LAN Automation
+  description: Complete design and implementation services for modern network infrastructure
+    with automated provisioning, configuration management, and intelligent traffic
+    optimization.
+- name: DWDM Transport Design & Implementation
+  description: Dense Wavelength Division Multiplexing solutions for high-capacity
+    fiber optic networks, enabling efficient long-distance data transmission.
+- name: SD-WAN Automation Solutions
+  description: Both on-premises and cloud-based SD-WAN solutions that provide intelligent
+    routing, enhanced application performance, and simplified WAN management.
+- name: Network Architecture Design & Implementation
+  description: Expert network architecture consulting and implementation ensuring
+    optimal performance, scalability, and security for your business requirements.
+- name: Network Convergence & Modernization
+  description: '"Everything Over IP" solutions that consolidate voice, video, and
+    data onto unified network infrastructure, reducing complexity and operational
+    costs.'
+- name: Collaboration & Unified Communications
+  description: Design and implementation of enterprise collaboration platforms including
+    VoIP, video conferencing, instant messaging, and presence services for seamless
+    organizational communication.
+- name: DANTE Audio Over IP Solutions
+  description: Industry-leading audio networking solutions using Audinate's DANTE
+    technology. Replace traditional analog and digital audio cabling with a network-based
+    solution, transmitting hundreds of audio channels over standard Ethernet cables
+    with near-zero latency and perfect digital fidelity. Ideal for professional AV
+    installations, conference rooms, auditoriums, houses of worship, broadcast facilities,
+    and live sound venues. DANTE provides uncompressed, lossless audio at up to 192
+    kHz sample rates with ultra-low latency of 1 millisecond or less, ensuring pristine
+    audio quality across your entire facility.
+- name: Data Center Virtualization & Automation
+  description: Comprehensive virtualization solutions including server, storage, and
+    network virtualization with automated orchestration and management.
+- name: Cloud Services & Migration Strategies
+  description: Strategic cloud adoption planning, migration services, and hybrid cloud
+    architectures leveraging AWS, Azure, and other leading platforms.
+- name: Enterprise Wireless Network Design
+  description: Secure, high-performance wireless infrastructure design and integration
+    supporting the latest Wi-Fi standards and technologies.
+- name: Enterprise Storage Solutions
+  description: Advanced storage solutions including SAN, NAS, and cloud storage technologies
+    with virtualization capabilities for optimal data management.
+- name: Cyber Security & Information Assurance
+  description: Comprehensive cybersecurity services including information assurance
+    accreditation, network defense, threat detection, and incident response capabilities.
+- name: Telecommunications & VoIP Solutions
+  description: Complete telecommunications infrastructure including traditional and
+    IP-based voice systems, SIP trunking, and unified communications platforms.
+- name: Service Desk & Technical Support
+  description: Professional service desk operations with IT ticketing management,
+    incident response, and multi-tier technical support services.
+- name: Consulting & Professional Services
+  description: Short-term and long-term on-site consulting services in multiple technical
+    disciplines, with cleared network professionals available for sensitive government
+    projects.
+differentiators:
+- Certified professionals with extensive government contracting experience
+- Partnership with leading technology manufacturers providing access to 1000+ technology
+  solutions
+- Proven track record with federal agencies including USDA, Department of Navy, and
+  other government entities
+- SBA certified Minority Owned Small Business with HubZone certification
+- Cleared personnel available for DoD and classified projects
+- Comprehensive end-to-end solutions from design through implementation and ongoing
+  support
+technology_partners:
+  description: With over 1000+ Technology Partners, ATI-Digital provides a wide range
+    of solutions in all areas of technology infrastructure, including software and
+    hardware from industry-leading manufacturers.
+  categories:
+  - Network Infrastructure
+  - Security Solutions
+  - Collaboration Tools
+  - Cloud Platforms
+  - Storage Systems
+  - Virtualization Technologies

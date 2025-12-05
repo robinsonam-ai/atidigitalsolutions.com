@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATI-Digital - Advanced Technical Solutions for Modern IT Infrastructure</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-network-wired"></i>
+                <span>ATI-Digital</span>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#government" class="nav-link">Government Contracts</a></li>
+                <li><a href="#partners" class="nav-link">Technology Partners</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page-section active-page">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Advanced Technical Solutions for Modern IT Infrastructure</h1>
+                <p class="hero-subtitle">Delivering cutting-edge IT infrastructure and consulting services to government agencies and commercial clients</p>
+                <div class="hero-buttons">
+                    <button class="btn btn--primary" onclick="navigateToSection('services')">Learn More About Our Services</button>
+                    <button class="btn btn--outline" onclick="navigateToSection('government')">View Our Capabilities</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Certifications Banner -->
+            <div class="certifications-banner">
+                <h2>Our Certifications</h2>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>SBA Certified</h3>
+                        <p>Minority Owned Small Business</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>HubZone</h3>
+                        <p>Certified</p>
+                    </div>
+                    <div class="cert-card">
+                        <i class="fas fa-award"></i>
+                        <h3>Small Disadvantaged</h3>
+                        <p>Business Certified</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Services -->
+            <div class="featured-services">
+                <h2>Core Service Capabilities</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon" style="background: var(--color-bg-1);">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Zero Trust Architectures</h3>
+                        <p>Implementation of comprehensive Zero Trust security frameworks that eliminate implicit trust and verify every access request.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon" style="background: var(--color-bg-2);">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <h3>Enterprise Network Infrastructure</h3>
+                        <p>Complete design and implementation services for modern network infrastructure with automated provisioning and management.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon" style="background: var(--color-bg-3);">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Services &amp; Migration</h3>
+                        <p>Strategic cloud adoption planning, migration services, and hybrid cloud architectures leveraging leading platforms.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon" style="background: var(--color-bg-4);">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+                        <h3>DANTE Audio Over IP</h3>
+                        <p>Industry-leading audio networking solutions with near-zero latency and perfect digital fidelity for professional AV installations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="stats-section">
+                <h2>Why Choose ATI-Digital</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-handshake"></i>
+                        <h3>1000+</h3>
+                        <p>Technology Partners</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-building"></i>
+                        <h3>Federal &amp; Commercial</h3>
+                        <p>Proven Track Record</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Certified Professionals</h3>
+                        <p>Cleared Personnel Available</p>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-lock"></i>
+                        <h3>DoD Experience</h3>
+                        <p>Security Clearances</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <h2>Ready to Transform Your IT Infrastructure?</h2>
+                <p>Contact us today to discuss how ATI-Digital can deliver cutting-edge solutions tailored to your organization's needs.</p>
+                <button class="btn btn--primary btn--lg" onclick="navigateToSection('contact')">Get in Touch</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="page-section">
+        <div class="page-hero">
+            <div class="container">
+                <h1>About ATI-Digital</h1>
+                <p>Advanced Technical Insight Digital Solutions</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section">
+                <h2>Who We Are</h2>
+                <p class="lead">ATI-Digital is an SBA certified Minority Owned Small Business, a global service provider and integrator of proven hardware, software, and Software-Defined Networking (SDN) technologies. With extensive experience in commercial and Federal IT, we have the technical capacity and certified IT professionals to provide tailored, innovative solutions that improve performance, increase security, and reduce costs.</p>
+                <p>We focus on delivering scalable and securable architectures capable of exceeding requirements and meeting fiscal constraints facing companies and US Federal agencies today.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Our Mission</h2>
+                <p class="lead">ATI-Digital's mission is to be at the forefront of technology and innovation, ensuring the integrity and consistency of servers and systems while implementing cutting-edge virtualization, database architecture, storage integration, and network support solutions.</p>
+                <p>We provide competitive cost efficiencies with advanced capability, encapsulating supported platforms into comprehensive Systems Administration services that deliver multiple facets of client-server support from a single trusted resource.</p>
+            </div>
+
+            <div class="company-data-section">
+                <h2>Company Information</h2>
+                <div class="data-grid">
+                    <div class="data-card">
+                        <h3>DUNS Number</h3>
+                        <p class="data-value">079979231</p>
+                    </div>
+                    <div class="data-card">
+                        <h3>CAGE Code</h3>
+                        <p class="data-value">7GTJ0</p>
+                    </div>
+                    <div class="data-card">
+                        <h3>NAICS Codes</h3>
+                        <p class="data-value">541330, 541512, 518210, 541519</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Our Differentiators</h2>
+                <div class="differentiators-grid">
+                    <div class="diff-card">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Certified Professionals</h3>
+                        <p>Extensive government contracting experience with certified IT professionals</p>
+                    </div>
+                    <div class="diff-card">
+                        <i class="fas fa-handshake"></i>
+                        <h3>1000+ Technology Partners</h3>
+                        <p>Access to leading technology manufacturers and comprehensive solutions</p>
+                    </div>
+                    <div class="diff-card">
+                        <i class="fas fa-landmark"></i>
+                        <h3>Federal Agency Experience</h3>
+                        <p>Proven track record with USDA, Department of Navy, and other agencies</p>
+                    </div>
+                    <div class="diff-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>SBA Certified</h3>
+                        <p>Minority Owned Small Business with HubZone certification</p>
+                    </div>
+                    <div class="diff-card">
+                        <i class="fas fa-user-secret"></i>
+                        <h3>Cleared Personnel</h3>
+                        <p>Available for DoD and classified projects</p>
+                    </div>
+                    <div class="diff-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>End-to-End Solutions</h3>
+                        <p>Comprehensive support from design through implementation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Page -->
+    <section id="services" class="page-section">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Our Services</h1>
+                <p>Comprehensive IT Infrastructure and Consulting Solutions</p>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Network & Infrastructure Services -->
+            <div class="service-category">
+                <h2><i class="fas fa-network-wired"></i> Network &amp; Infrastructure Services</h2>
+                <div class="service-list">
+                    <div class="service-detail-card">
+                        <h3>Enterprise Network Infrastructure &amp; LAN Automation</h3>
+                        <p>Complete design and implementation services for modern network infrastructure with automated provisioning, configuration management, and intelligent traffic optimization.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>DWDM Transport Design &amp; Implementation</h3>
+                        <p>Dense Wavelength Division Multiplexing solutions for high-capacity fiber optic networks, enabling efficient long-distance data transmission.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>SD-WAN Automation Solutions</h3>
+                        <p>Both on-premises and cloud-based SD-WAN solutions that provide intelligent routing, enhanced application performance, and simplified WAN management.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Network Architecture Design &amp; Implementation</h3>
+                        <p>Expert network architecture consulting and implementation ensuring optimal performance, scalability, and security for your business requirements.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Network Convergence &amp; Modernization</h3>
+                        <p>"Everything Over IP" solutions that consolidate voice, video, and data onto unified network infrastructure, reducing complexity and operational costs.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Enterprise Wireless Network Design</h3>
+                        <p>Secure, high-performance wireless infrastructure design and integration supporting the latest Wi-Fi standards and technologies.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security & Compliance Services -->
+            <div class="service-category">
+                <h2><i class="fas fa-shield-alt"></i> Security &amp; Compliance Services</h2>
+                <div class="service-list">
+                    <div class="service-detail-card">
+                        <h3>Zero Trust Architectures (ZTA)</h3>
+                        <p>Implementation of comprehensive Zero Trust security frameworks that eliminate implicit trust and verify every access request, ensuring robust protection for your critical infrastructure.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Cyber Security &amp; Information Assurance</h3>
+                        <p>Comprehensive cybersecurity services including information assurance accreditation, network defense, threat detection, and incident response capabilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cloud & Virtualization Services -->
+            <div class="service-category">
+                <h2><i class="fas fa-cloud"></i> Cloud &amp; Virtualization Services</h2>
+                <div class="service-list">
+                    <div class="service-detail-card">
+                        <h3>Data Center Virtualization &amp; Automation</h3>
+                        <p>Comprehensive virtualization solutions including server, storage, and network virtualization with automated orchestration and management.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Cloud Services &amp; Migration Strategies</h3>
+                        <p>Strategic cloud adoption planning, migration services, and hybrid cloud architectures leveraging AWS, Azure, and other leading platforms.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Enterprise Storage Solutions</h3>
+                        <p>Advanced storage solutions including SAN, NAS, and cloud storage technologies with virtualization capabilities for optimal data management.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audio/Visual & Collaboration Services -->
+            <div class="service-category featured-category">
+                <h2><i class="fas fa-volume-up"></i> Audio/Visual &amp; Collaboration Services</h2>
+                <div class="service-list">
+                    <div class="service-detail-card featured-service">
+                        <div class="featured-badge">Specialized Offering</div>
+                        <h3>DANTE Audio Over IP Solutions</h3>
+                        <p>Industry-leading audio networking solutions using Audinate's DANTE technology. Replace traditional analog and digital audio cabling with a network-based solution, transmitting hundreds of audio channels over standard Ethernet cables with near-zero latency and perfect digital fidelity. Ideal for professional AV installations, conference rooms, auditoriums, houses of worship, broadcast facilities, and live sound venues. DANTE provides uncompressed, lossless audio at up to 192 kHz sample rates with ultra-low latency of 1 millisecond or less, ensuring pristine audio quality across your entire facility.</p>
+                        <div class="dante-features">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Near-Zero Latency (&lt;1ms)</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Uncompressed Digital Audio</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Up to 192 kHz Sample Rates</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Hundreds of Channels Over Ethernet</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Collaboration &amp; Unified Communications</h3>
+                        <p>Design and implementation of enterprise collaboration platforms including VoIP, video conferencing, instant messaging, and presence services for seamless organizational communication.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Telecommunications &amp; VoIP Solutions</h3>
+                        <p>Complete telecommunications infrastructure including traditional and IP-based voice systems, SIP trunking, and unified communications platforms.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support & Consulting Services -->
+            <div class="service-category">
+                <h2><i class="fas fa-headset"></i> Support &amp; Consulting Services</h2>
+                <div class="service-list">
+                    <div class="service-detail-card">
+                        <h3>Service Desk &amp; Technical Support</h3>
+                        <p>Professional service desk operations with IT ticketing management, incident response, and multi-tier technical support services.</p>
+                    </div>
+                    <div class="service-detail-card">
+                        <h3>Consulting &amp; Professional Services</h3>
+                        <p>Short-term and long-term on-site consulting services in multiple technical disciplines, with cleared network professionals available for sensitive government projects.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2>Need a Custom Solution?</h2>
+                <p>Our team of certified professionals can design and implement tailored solutions for your unique requirements.</p>
+                <button class="btn btn--primary btn--lg" onclick="navigateToSection('contact')">Request a Consultation</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Government Contracts Page -->
+    <section id="government" class="page-section">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Government Contracts</h1>
+                <p>Certified and Ready to Serve Federal Agencies</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section">
+                <h2>Government Contracting Capabilities</h2>
+                <p class="lead">ATI-Digital is a certified small business with extensive experience supporting federal agencies and government contractors. Our certifications and proven track record make us an ideal partner for government IT infrastructure projects.</p>
+            </div>
+
+            <div class="certifications-detail">
+                <h2>Our Certifications</h2>
+                <div class="cert-detail-grid">
+                    <div class="cert-detail-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>SBA Certified Minority Owned Small Business</h3>
+                        <p>Certified by the Small Business Administration as a minority-owned enterprise, providing socioeconomic benefits for government contracting.</p>
+                    </div>
+                    <div class="cert-detail-card">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>HubZone Certified</h3>
+                        <p>Located in a Historically Underutilized Business Zone, qualifying for special government contracting preferences and set-asides.</p>
+                    </div>
+                    <div class="cert-detail-card">
+                        <i class="fas fa-award"></i>
+                        <h3>Small Disadvantaged Business Certified</h3>
+                        <p>SDB certification providing additional opportunities for federal contracting and meeting socioeconomic goals.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="company-data-section">
+                <h2>Contract Information</h2>
+                <div class="contract-info-grid">
+                    <div class="info-card">
+                        <h3>DUNS Number</h3>
+                        <p class="info-value">079979231</p>
+                        <p class="info-desc">Dun &amp; Bradstreet Identifier</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>CAGE Code</h3>
+                        <p class="info-value">7GTJ0</p>
+                        <p class="info-desc">Commercial and Government Entity Code</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="naics-section">
+                <h2>NAICS Codes</h2>
+                <p>ATI-Digital operates under the following North American Industry Classification System codes:</p>
+                <div class="naics-grid">
+                    <div class="naics-card">
+                        <h3>541330</h3>
+                        <p>Engineering Services</p>
+                    </div>
+                    <div class="naics-card">
+                        <h3>541512</h3>
+                        <p>Computer Systems Design Services</p>
+                    </div>
+                    <div class="naics-card">
+                        <h3>518210</h3>
+                        <p>Data Processing, Hosting, and Related Services</p>
+                    </div>
+                    <div class="naics-card">
+                        <h3>541519</h3>
+                        <p>Other Computer Related Services</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Past Performance</h2>
+                <p class="lead">ATI-Digital has successfully delivered IT infrastructure projects for multiple federal agencies including:</p>
+                <ul class="agency-list">
+                    <li><i class="fas fa-check"></i> United States Department of Agriculture (USDA)</li>
+                    <li><i class="fas fa-check"></i> Department of the Navy</li>
+                    <li><i class="fas fa-check"></i> Other federal agencies and prime contractors</li>
+                </ul>
+            </div>
+
+            <div class="capabilities-section">
+                <h2>Security &amp; Clearances</h2>
+                <div class="capabilities-grid">
+                    <div class="capability-card">
+                        <i class="fas fa-user-secret"></i>
+                        <h3>Cleared Personnel</h3>
+                        <p>Access to cleared network professionals for DoD and classified projects</p>
+                    </div>
+                    <div class="capability-card">
+                        <i class="fas fa-lock"></i>
+                        <h3>Security Compliance</h3>
+                        <p>Experience with NIST, FISMA, and other federal security frameworks</p>
+                    </div>
+                    <div class="capability-card">
+                        <i class="fas fa-file-contract"></i>
+                        <h3>Contract Vehicles</h3>
+                        <p>Ready to work with existing government contract vehicles and GSA schedules</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2>Partner with ATI-Digital</h2>
+                <p>Contact us to discuss your government IT infrastructure requirements and learn how our certifications can benefit your procurement process.</p>
+                <button class="btn btn--primary btn--lg" onclick="navigateToSection('contact')">Request Capability Statement</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Partners Page -->
+    <section id="partners" class="page-section">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Technology Partners</h1>
+                <p>Access to 1000+ Leading Technology Solutions</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content-section">
+                <h2>Comprehensive Technology Partnerships</h2>
+                <p class="lead">With over 1000+ Technology Partners, ATI-Digital provides a wide range of solutions in all areas of technology infrastructure, including software and hardware from industry-leading manufacturers.</p>
+                <p>Our extensive partnerships enable us to deliver best-in-class solutions tailored to your specific requirements, ensuring you benefit from the latest innovations and proven technologies.</p>
+            </div>
+
+            <div class="partners-categories">
+                <h2>Technology Solution Categories</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Network Infrastructure</h3>
+                        <p>Enterprise-grade networking equipment, switches, routers, SD-WAN solutions, and network management platforms</p>
+                        <div class="vendor-examples">
+                            <span class="vendor-tag">Cisco</span>
+                            <span class="vendor-tag">Juniper</span>
+                            <span class="vendor-tag">Aruba</span>
+                            <span class="vendor-tag">Fortinet</span>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Security Solutions</h3>
+                        <p>Comprehensive cybersecurity tools, firewalls, intrusion detection, endpoint protection, and security information management</p>
+                        <div class="vendor-examples">
+                            <span class="vendor-tag">Palo Alto</span>
+                            <span class="vendor-tag">Cisco Security</span>
+                            <span class="vendor-tag">Fortinet</span>
+                            <span class="vendor-tag">CrowdStrike</span>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-comments"></i>
+                        <h3>Collaboration Tools</h3>
+                        <p>Unified communications, video conferencing, VoIP systems, and team collaboration platforms</p>
+                        <div class="vendor-examples">
+                            <span class="vendor-tag">Cisco Webex</span>
+                            <span class="vendor-tag">Microsoft Teams</span>
+                            <span class="vendor-tag">Zoom</span>
+                            <span class="vendor-tag">Poly</span>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Platforms</h3>
+                        <p>Public, private, and hybrid cloud solutions with infrastructure as a service and platform as a service offerings</p>
+                        <div class="vendor-examples">
+                            <span class="vendor-tag">AWS</span>
+                            <span class="vendor-tag">Microsoft Azure</span>
+                            <span class="vendor-tag">Google Cloud</span>
+                            <span class="vendor-tag">VMware Cloud</span>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Storage Systems</h3>
+                        <p>Enterprise storage arrays, SAN, NAS, hyper-converged infrastructure, and cloud storage solutions</p>
+                        <div class="vendor-examples">
+                            <span class="vendor-tag">NetApp</span>
+                            <span class="vendor-tag">Dell EMC</span>
+                            <span class="vendor-tag">Pure Storage</span>
+                            <span class="vendor-tag">HPE</span>
+                        </div>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Virtualization Technologies</h3>
+                        <p>Server virtualization, desktop virtualization, network virtualization, and container orchestration platforms</p>
+                        <div class="vendor-examples">
+                            <span class="vendor-tag">VMware</span>
+                            <span class="vendor-tag">Microsoft Hyper-V</span>
+                            <span class="vendor-tag">Citrix</span>
+                            <span class="vendor-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-partner">
+                <h2>Featured Technology: DANTE Audio Over IP</h2>
+                <div class="featured-partner-content">
+                    <div class="partner-info">
+                        <i class="fas fa-volume-up"></i>
+                        <h3>Audinate DANTE Partnership</h3>
+                        <p>ATI-Digital is proud to offer Audinate's DANTE (Digital Audio Network Through Ethernet) technology, the leading audio networking solution for professional AV applications worldwide.</p>
+                        <p>DANTE revolutionizes audio distribution by replacing traditional analog and digital audio cabling with a network-based approach, delivering pristine audio quality with near-zero latency over standard Ethernet infrastructure.</p>
+                        <div class="partner-benefits">
+                            <h4>DANTE Solution Benefits:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Transmit hundreds of audio channels over a single network cable</li>
+                                <li><i class="fas fa-check"></i> Uncompressed, lossless audio at up to 192 kHz sample rates</li>
+                                <li><i class="fas fa-check"></i> Ultra-low latency of 1 millisecond or less</li>
+                                <li><i class="fas fa-check"></i> Perfect digital fidelity with no quality loss</li>
+                                <li><i class="fas fa-check"></i> Plug-and-play setup with automatic device discovery</li>
+                                <li><i class="fas fa-check"></i> Scalable from small to enterprise installations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="integration-section">
+                <h2>Integration Capabilities</h2>
+                <p>Our team of certified professionals has deep expertise integrating solutions across multiple vendors and platforms, ensuring seamless interoperability and optimal performance for your IT infrastructure.</p>
+                <div class="integration-features">
+                    <div class="integration-card">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h3>Multi-Vendor Integration</h3>
+                        <p>Seamlessly integrate solutions from multiple manufacturers</p>
+                    </div>
+                    <div class="integration-card">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>Legacy Modernization</h3>
+                        <p>Bridge legacy systems with modern technologies</p>
+                    </div>
+                    <div class="integration-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Custom Solutions</h3>
+                        <p>Tailored integrations for unique requirements</p>
+                    </div>
+                    <div class="integration-card">
+                        <i class="fas fa-life-ring"></i>
+                        <h3>Ongoing Support</h3>
+                        <p>Continuous support across all partner technologies</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-section">
+                <h2>Leverage Our Technology Partnerships</h2>
+                <p>Let ATI-Digital help you select and implement the right technology solutions for your organization.</p>
+                <button class="btn btn--primary btn--lg" onclick="navigateToSection('contact')">Discuss Your Technology Needs</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page-section">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Let's Discuss Your IT Infrastructure Needs</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Whether you need IT infrastructure consulting, implementation services, or have questions about our capabilities, we're here to help. Contact ATI-Digital today to discuss how we can support your technology goals.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-building"></i>
+                            <div>
+                                <h3>Company Information</h3>
+                                <p>ATI-Digital<br>Advanced Technical Insight Digital Solutions</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 8:00 AM - 6:00 PM EST<br>Saturday - Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h3>Certifications</h3>
+                                <p>SBA Certified Minority Owned Small Business<br>HubZone &amp; Small Disadvantaged Business</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quick-info">
+                        <h3>Quick Reference</h3>
+                        <p><strong>DUNS:</strong> 079979231</p>
+                        <p><strong>CAGE Code:</strong> 7GTJ0</p>
+                        <p><strong>NAICS:</strong> 541330, 541512, 518210, 541519</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="organization" class="form-label">Organization</label>
+                            <input type="text" id="organization" name="organization" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Service Interest *</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="">Select a service...</option>
+                                <option value="zero-trust">Zero Trust Architectures</option>
+                                <option value="network-infrastructure">Network Infrastructure</option>
+                                <option value="cloud-services">Cloud Services &amp; Migration</option>
+                                <option value="dante-audio">DANTE Audio Over IP</option>
+                                <option value="cybersecurity">Cyber Security &amp; Information Assurance</option>
+                                <option value="virtualization">Data Center Virtualization</option>
+                                <option value="collaboration">Collaboration &amp; Unified Communications</option>
+                                <option value="consulting">Consulting &amp; Professional Services</option>
+                                <option value="government">Government Contracting</option>
+                                <option value="other">Other / General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                    <div id="formSuccess" class="form-success hidden">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Thank You!</h3>
+                        <p>Your message has been received. We'll get back to you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ATI-Digital</h3>
+                    <p>Advanced Technical Insight Digital Solutions</p>
+                    <p class="footer-cert">SBA Certified Minority Owned Small Business</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home" onclick="navigateToSection('home')">Home</a></li>
+                        <li><a href="#about" onclick="navigateToSection('about')">About Us</a></li>
+                        <li><a href="#services" onclick="navigateToSection('services')">Services</a></li>
+                        <li><a href="#government" onclick="navigateToSection('government')">Government Contracts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services" onclick="navigateToSection('services')">Zero Trust Architectures</a></li>
+                        <li><a href="#services" onclick="navigateToSection('services')">Network Infrastructure</a></li>
+                        <li><a href="#services" onclick="navigateToSection('services')">DANTE Audio Over IP</a></li>
+                        <li><a href="#services" onclick="navigateToSection('services')">Cloud Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li>DUNS: 079979231</li>
+                        <li>CAGE: 7GTJ0</li>
+                        <li>NAICS: 541330, 541512, 518210, 541519</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ATI-Digital. Advanced Technical Insight Digital Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
