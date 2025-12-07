@@ -6,7 +6,6 @@ company_info:
   - HubZone Certified
   - Small Disadvantaged Business Certified
   company_data:
-    duns: 079979231
     cage_code: 7GTJ0
     naics:
     - '541330'
